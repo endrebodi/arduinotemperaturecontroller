@@ -17,7 +17,7 @@ int topTemp = 62;
 void setup() { 
 	Serial.begin(9600); 
 	sensors.begin();
-    pinMode(relay, OUTPUT);
+    	pinMode(relay, OUTPUT);
 } 
 void loop() { 
 	sensors.requestTemperatures();
